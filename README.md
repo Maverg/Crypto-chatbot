@@ -7,13 +7,13 @@ A CLI chatbot that:
 
 ## Project structure
 
-- `chat.py` — main CLI app. Loads cached articles, maintains conversation history, and streams tokens to stdout. fileciteturn4file13L44-L64  
-- `fetcher_service.py` — background RSS fetcher (runs every ~30 min by default). fileciteturn4file0L49-L70  
+- `chat.py` — main CLI app. Loads cached articles, maintains conversation history, and streams tokens to stdout.
+- `fetcher_service.py` — background RSS fetcher (runs every ~30 min by default).
 - `getRSS.py` — RSS feed list + fetching + date filtering helpers.
 - `database.py` — SQLite article store with duplicate protection.
-- `vector_store.py` — Chroma vector store manager using **BAAI/bge-m3** embeddings. fileciteturn4file3L21-L35  
-- `tools.py` — LangChain tools (web search, crypto price via CoinGecko, fetch webpage content, etc.). fileciteturn4file1L15-L72  
-- `setup_mocking.py` / `create_mock_data.py` — build a mock DB + mock vector store for testing. fileciteturn4file14L9-L56  
+- `vector_store.py` — Chroma vector store manager using **BAAI/bge-m3** embeddings.
+- `tools.py` — LangChain tools (web search, crypto price via CoinGecko, fetch webpage content, etc.).
+- `setup_mocking.py` / `create_mock_data.py` — build a mock DB + mock vector store for testing.
 - `test_database.py` — interactive DB viewer + basic performance checks.
 
 ## Requirements
