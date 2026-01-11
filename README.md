@@ -92,7 +92,7 @@ To generate a clean mock environment (mock DB + mock vector store), run:
 python setup_mocking.py
 ```
 
-This deletes any previous mock artifacts (`mocking_articles.db`, `mock_vector_store`) and creates fresh mock articles for testing. fileciteturn4file14L13-L27  
+This deletes any previous mock artifacts (`mocking_articles.db`, `mock_vector_store`) and creates fresh mock articles for testing.
 
 Then try:
 
